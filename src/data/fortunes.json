@@ -1,366 +1,366 @@
 [
   {
     "number": 1,
-    "level": "ดีเลิศ",
-    "title": "ตะวันพ้นขอบฟ้า",
-    "poem": ["ตะวันพ้นขอบฟ้า แสงทองส่องทั่วหล้า", "สิ่งใดตั้งใจมา ย่อมสมปรารถนา"],
-    "meaning": "ช่วงนี้ดวงกำลังขึ้นสูงสุด อุปสรรคที่เคยมีจะคลี่คลาย สิ่งที่รอคอยจะสำเร็จในเร็ววัน",
+    "level": "Excellent",
+    "title": "Sunrise Over the Horizon",
+    "poem": ["The sun climbs high, its golden light shines wide,", "What you set your heart on will be satisfied."],
+    "meaning": "Your luck is at its peak. Old obstacles will clear, and what you have been waiting for will happen soon.",
     "advice": {
-      "love": "คนโสดมีโอกาสพบคนที่ใช่ คนมีคู่ความสัมพันธ์มั่นคงขึ้น กล้าบอกความรู้สึกได้เลย",
-      "study": "สอบผ่านฉลุย ความจำดีเยี่ยม เหมาะกับการเริ่มเรียนสิ่งใหม่",
-      "work": "ผู้ใหญ่เห็นผลงาน มีโอกาสได้เลื่อนตำแหน่งหรือได้รับมอบหมายงานสำคัญ",
-      "money": "การเงินคล่องตัว มีรายได้เพิ่มจากหลายทาง แต่อย่าลืมเก็บออมส่วนหนึ่ง"
+      "love": "Singles may meet the right person. Couples grow closer. Go ahead and share your feelings.",
+      "study": "You will pass your exams with ease. Your memory is sharp, so it is a great time to start learning something new.",
+      "work": "Your seniors notice your work. A promotion or an important assignment may come your way.",
+      "money": "Money flows well, with income from several sources. Remember to save part of it."
     }
   },
   {
     "number": 2,
-    "level": "ดี",
-    "title": "ต้นกล้าได้น้ำ",
-    "poem": ["ต้นกล้าได้น้ำฝน ค่อยงอกงามพ้นดิน", "อดทนอย่าหมดสิ้น วันหน้าได้ร่มเงา"],
-    "meaning": "เรื่องที่ทำอยู่กำลังไปได้ดี แม้ผลยังไม่เห็นชัด แต่ความสม่ำเสมอจะพาไปสู่ความสำเร็จ",
+    "level": "Good",
+    "title": "A Seedling in the Rain",
+    "poem": ["The seedling drinks the rain and slowly starts to grow,", "Be patient, and one day it will give you shade below."],
+    "meaning": "What you are doing is going well. The results are not clear yet, but steady effort will lead to success.",
     "advice": {
-      "love": "ความรักค่อยเป็นค่อยไป ใส่ใจเรื่องเล็ก ๆ แล้วอีกฝ่ายจะรับรู้ได้",
-      "study": "ทบทวนบทเรียนทุกวัน วันละนิด ผลสอบจะดีกว่าที่คิด",
-      "work": "งานที่ลงแรงไว้จะเริ่มออกผล อย่าเพิ่งท้อหรือเปลี่ยนใจกลางทาง",
-      "money": "รายได้มั่นคง เหมาะกับการเริ่มออมเงินหรือวางแผนระยะยาว"
+      "love": "Love grows step by step. Care about the small things, and the other person will notice.",
+      "study": "Review a little every day. Your exam results will be better than you expect.",
+      "work": "The work you put in will start to pay off. Don't give up or change your mind halfway.",
+      "money": "Your income is stable. It is a good time to start saving or make a long-term plan."
     }
   },
   {
     "number": 3,
-    "level": "ดีมาก",
-    "title": "มังกรเหินฟ้า",
-    "poem": ["มังกรเหินเมฆา ลมฟ้าพาขึ้นสูง", "มีผู้ใหญ่ชักจูง หนทางกว้างไกล"],
-    "meaning": "มีผู้อุปถัมภ์คอยช่วยเหลือ ทำการใหญ่ได้ผลดี ขอให้ตั้งเป้าหมายให้ชัด",
+    "level": "Very Good",
+    "title": "The Dragon Takes Flight",
+    "poem": ["The dragon rides the clouds, the wind lifts it high,", "A helping hand will guide you, and your path is wide."],
+    "meaning": "Someone powerful is ready to support you. Big plans will go well, so set clear goals.",
     "advice": {
-      "love": "มีผู้ใหญ่หรือเพื่อนช่วยเป็นสื่อกลาง ความรักมีแนวโน้มไปในทางที่ดี",
-      "study": "มีครูหรือรุ่นพี่คอยแนะนำ กล้าถามแล้วจะเข้าใจเร็วขึ้นมาก",
-      "work": "ได้รับการสนับสนุนจากหัวหน้า เหมาะกับการเสนอโปรเจกต์ใหม่",
-      "money": "มีโชคจากการเจรจาหรือข้อเสนอที่ดี ตัดสินใจอย่างรอบคอบแล้วจะได้กำไร"
+      "love": "A friend or an elder may help bring you together with someone. Love is moving in a good direction.",
+      "study": "A teacher or senior student will guide you. Ask questions and you will understand much faster.",
+      "work": "Your boss supports you. It is a good time to propose a new project.",
+      "money": "Good luck from a deal or a good offer. Think carefully and you will make a profit."
     }
   },
   {
     "number": 4,
-    "level": "พอใช้",
-    "title": "เรือฝ่าคลื่น",
-    "poem": ["เรือน้อยฝ่าคลื่นลม ต้องอดทนพายไป", "อย่าหวั่นอย่าท้อใจ ฝั่งอยู่ไม่ไกลเกิน"],
-    "meaning": "ช่วงนี้มีอุปสรรคเข้ามาบ้าง แต่ถ้าใจเย็นและไม่ยอมแพ้ ทุกอย่างจะผ่านไปได้",
+    "level": "Fair",
+    "title": "A Boat Against the Waves",
+    "poem": ["A little boat rows on through wind and wave,", "Don't lose heart, the shore is near, be brave."],
+    "meaning": "Some obstacles are coming, but if you stay calm and don't give up, you will get through them.",
     "advice": {
-      "love": "อาจมีเรื่องเข้าใจผิดกันเล็กน้อย พูดคุยกันตรง ๆ ด้วยความใจเย็น",
-      "study": "เนื้อหาบางวิชายากกว่าที่คิด แบ่งเวลาอ่านให้ดีและอย่าเก็บไว้อ่านคืนสุดท้าย",
-      "work": "งานติดขัดบ้าง ให้วางแผนสำรองไว้และอย่ารับปากเกินกำลัง",
-      "money": "รายจ่ายมากกว่าปกติ ควรงดซื้อของที่ไม่จำเป็นสักระยะ"
+      "love": "There may be a small misunderstanding. Talk openly and calmly.",
+      "study": "Some subjects are harder than you thought. Plan your study time and don't leave it to the last night.",
+      "work": "Work may get stuck. Have a backup plan and don't promise more than you can do.",
+      "money": "You are spending more than usual. Stop buying things you don't need for a while."
     }
   },
   {
     "number": 5,
-    "level": "ดี",
-    "title": "บัวพ้นน้ำ",
-    "poem": ["บัวพ้นน้ำเบ่งบาน ส่องสะอ้านงามตา", "ทำดีไม่ช้าช้า ผลบุญย่อมตามมา"],
-    "meaning": "ความดีที่ทำไว้เริ่มส่งผล ผู้คนรอบข้างให้ความเชื่อถือ จิตใจสงบเบิกบาน",
+    "level": "Good",
+    "title": "The Lotus Above the Water",
+    "poem": ["The lotus rises from the pond, so bright and clean,", "Do good today, and soon its rewards will be seen."],
+    "meaning": "The good things you have done are starting to pay off. People trust you, and your mind feels calm and happy.",
     "advice": {
-      "love": "ความจริงใจคือเสน่ห์ของคุณ อีกฝ่ายประทับใจในความเป็นตัวเอง",
-      "study": "สมาธิดี เหมาะกับการอ่านหนังสือหรือทำรายงานที่ต้องใช้ความละเอียด",
-      "work": "เพื่อนร่วมงานไว้ใจ การทำงานเป็นทีมราบรื่น",
-      "money": "การเงินพอดีพอใช้ มีโอกาสได้รับของขวัญหรือน้ำใจจากคนรู้จัก"
+      "love": "Your honesty is your charm. The other person likes you for who you are.",
+      "study": "Your focus is strong. It is a good time for reading or detailed reports.",
+      "work": "Your coworkers trust you, and teamwork goes smoothly.",
+      "money": "You have just enough. You may receive a gift or kindness from someone you know."
     }
   },
   {
     "number": 6,
-    "level": "ดีมาก",
-    "title": "หงส์ทองคืนรัง",
-    "poem": ["หงส์ทองบินคืนรัง พบรวงรังอบอุ่น", "สิ่งหายได้คืนทุน คนไกลกลับมาเยือน"],
-    "meaning": "สิ่งที่เคยสูญเสียหรือห่างหายจะกลับคืนมา ความสัมพันธ์เก่าได้รับการฟื้นฟู",
+    "level": "Very Good",
+    "title": "The Golden Swan Returns Home",
+    "poem": ["The golden swan flies home to a warm and cozy nest,", "What was lost returns, and old friends come as guests."],
+    "meaning": "Something you lost or drifted away from will come back. Old relationships will be restored.",
     "advice": {
-      "love": "คนที่เคยห่างกันมีโอกาสกลับมาคุยกัน คนมีคู่จะได้ใช้เวลาด้วยกันมากขึ้น",
-      "study": "เรื่องที่เคยไม่เข้าใจจะกระจ่าง ลองย้อนกลับไปทบทวนพื้นฐาน",
-      "work": "ได้งานหรือโอกาสที่เคยพลาดไปกลับคืนมา เตรียมตัวให้พร้อม",
-      "money": "ได้เงินคืนจากที่เคยให้ยืม หรือมีรายรับที่ค้างอยู่เข้ามา"
+      "love": "Someone you drifted apart from may reach out again. Couples will spend more time together.",
+      "study": "Things you didn't understand will become clear. Go back and review the basics.",
+      "work": "A job or chance you missed may come back. Be ready for it.",
+      "money": "Money you lent may be returned, or payment you were owed will arrive."
     }
   },
   {
     "number": 7,
-    "level": "ควรระวัง",
-    "title": "เมฆบังจันทร์",
-    "poem": ["เมฆดำบังจันทร์เพ็ญ มองไม่เห็นหนทาง", "รอให้ฟ้าสว่าง ค่อยก้าวย่างต่อไป"],
-    "meaning": "ช่วงนี้ยังไม่ใช่จังหวะที่ดีในการตัดสินใจเรื่องใหญ่ ควรรอและสังเกตสถานการณ์ก่อน",
+    "level": "Caution",
+    "title": "Clouds Cover the Moon",
+    "poem": ["Dark clouds hide the moon, the road is hard to see,", "Wait for the sky to clear, then walk on carefully."],
+    "meaning": "This is not a good time to make big decisions. Wait and watch the situation first.",
     "advice": {
-      "love": "ระวังคำพูดที่อาจทำร้ายใจกัน อย่าตัดสินใจเรื่องความรักตอนอารมณ์ไม่ดี",
-      "study": "ระวังความประมาท ตรวจทานคำตอบและจดกำหนดส่งงานให้ดี",
-      "work": "ระวังการสื่อสารผิดพลาด ทำอะไรควรมีหลักฐานเป็นลายลักษณ์อักษร",
-      "money": "ไม่ควรลงทุนหรือให้ใครยืมเงินในช่วงนี้ เก็บเงินสำรองไว้ก่อน"
+      "love": "Be careful with words that can hurt. Don't make love decisions when you are upset.",
+      "study": "Watch out for careless mistakes. Check your answers and write down your deadlines.",
+      "work": "Be careful of miscommunication. Keep important things in writing.",
+      "money": "Don't invest or lend money right now. Keep some savings for emergencies."
     }
   },
   {
     "number": 8,
-    "level": "ดีเลิศ",
-    "title": "ทองคำในทราย",
-    "poem": ["ขุดทรายพบทองคำ ความเพียรนำโชคใหญ่", "สิ่งหวังจะสมใจ ลาภลอยมาถึงมือ"],
-    "meaning": "ความพยายามที่ผ่านมาจะได้รับผลตอบแทนเกินคาด มีโชคลาภและข่าวดีเข้ามา",
+    "level": "Excellent",
+    "title": "Gold in the Sand",
+    "poem": ["You dig the sand and find a piece of gold,", "Your hard work brings good fortune, rich and bold."],
+    "meaning": "Your past efforts will be rewarded beyond what you expect. Good luck and good news are coming.",
     "advice": {
-      "love": "ความรักสดใส คนโสดเจอคนที่เข้ากันได้ดีโดยไม่คาดคิด",
-      "study": "ได้คะแนนดีเกินคาด หรือได้รับทุน รางวัล หรือคำชมจากอาจารย์",
-      "work": "ผลงานโดดเด่นจนเป็นที่จับตา มีข้อเสนอดี ๆ เข้ามา",
-      "money": "มีลาภลอยหรือรายได้พิเศษ ใช้เงินอย่างมีสติแล้วจะยิ่งงอกเงย"
+      "love": "Love is bright. Singles may unexpectedly meet someone who is a great match.",
+      "study": "Better grades than expected, or a scholarship, prize, or praise from a teacher.",
+      "work": "Your work stands out and gets noticed. Good offers will come in.",
+      "money": "Unexpected luck or extra income. Spend it wisely and it will grow."
     }
   },
   {
     "number": 9,
-    "level": "ดี",
-    "title": "ลมเย็นยามเช้า",
-    "poem": ["ลมเย็นพัดยามเช้า ใจเบาสบายดี", "เรื่องร้ายผ่านพ้นที เรื่องดีเข้ามาแทน"],
-    "meaning": "ความกังวลจะค่อย ๆ หายไป ชีวิตเข้าสู่ช่วงสงบและมีความสุขเล็ก ๆ รอบตัว",
+    "level": "Good",
+    "title": "A Cool Morning Breeze",
+    "poem": ["A cool breeze blows at dawn, your heart feels light,", "The bad days pass away, and good ones come in sight."],
+    "meaning": "Your worries will slowly fade. Life is entering a calm time, with small joys all around you.",
     "advice": {
-      "love": "บรรยากาศความรักอบอุ่น เหมาะกับการชวนไปเที่ยวหรือทำกิจกรรมด้วยกัน",
-      "study": "อ่านหนังสือตอนเช้าจะจำได้ดี เรียนอย่างผ่อนคลายแล้วจะเข้าใจง่าย",
-      "work": "งานเดินหน้าอย่างราบรื่น ไม่มีเรื่องให้หนักใจ",
-      "money": "การเงินทรงตัว ไม่มีรายจ่ายใหญ่ให้กังวล"
+      "love": "Love feels warm. It is a good time to plan a trip or do something together.",
+      "study": "Study in the morning and you will remember more. Relax while learning and it will be easier.",
+      "work": "Work moves forward smoothly with nothing to worry about.",
+      "money": "Your money is steady, with no big expenses to worry about."
     }
   },
   {
     "number": 10,
-    "level": "ดีมาก",
-    "title": "อาชาควบทะยาน",
-    "poem": ["อาชาควบทะยาน ผ่านทุ่งกว้างไกลตา", "ลงมือไวล้ำหน้า ชัยชนะมาสู่ตน"],
-    "meaning": "เป็นจังหวะดีที่จะลงมือทำ ความกล้าและความรวดเร็วจะนำชัยชนะมาให้",
+    "level": "Very Good",
+    "title": "The Galloping Horse",
+    "poem": ["The horse runs fast across the open plain,", "Act quickly and boldly, and victory you'll gain."],
+    "meaning": "It is a good time to take action. Courage and speed will bring you success.",
     "advice": {
-      "love": "ถ้าแอบชอบใคร นี่คือเวลาที่เหมาะจะเริ่มต้น อย่ารอนานเกินไป",
-      "study": "เหมาะกับการสมัครสอบ แข่งขัน หรือเริ่มทำโปรเจกต์ใหญ่",
-      "work": "รีบคว้าโอกาสที่เข้ามา งานใหม่หรือการย้ายงานมีแนวโน้มดี",
-      "money": "รายได้เพิ่มจากความขยัน งานเสริมสร้างรายได้ได้ดี"
+      "love": "If you have a crush on someone, now is the time to start. Don't wait too long.",
+      "study": "A good time to apply for exams, join a competition, or start a big project.",
+      "work": "Grab the chances that come. A new job or a job change looks good.",
+      "money": "Hard work brings more income. A side job can earn you good money."
     }
   },
   {
     "number": 11,
-    "level": "พอใช้",
-    "title": "ฝนตกไม่ทั่วฟ้า",
-    "poem": ["ฝนตกไม่ทั่วฟ้า บางนาได้บางนาแล้ง", "อย่าเพิ่งหมดเรี่ยวแรง รอฤดูกาลใหม่"],
-    "meaning": "ผลลัพธ์อาจได้ไม่เท่าที่หวัง บางเรื่องสำเร็จ บางเรื่องต้องรอ ให้ใจเย็นและปรับแผน",
+    "level": "Fair",
+    "title": "Rain That Doesn't Fall Everywhere",
+    "poem": ["The rain falls here and there, some fields stay dry,", "Don't lose your strength, a new season will come by."],
+    "meaning": "Results may not be as good as you hoped. Some things succeed and some must wait. Stay calm and adjust your plan.",
     "advice": {
-      "love": "อย่าคาดหวังจากอีกฝ่ายมากเกินไป ให้ความรักอย่างพอดี",
-      "study": "บางวิชาได้ดี บางวิชาต้องเสริม ลองหาเพื่อนติวด้วยกัน",
-      "work": "งานบางส่วนต้องแก้ไข อย่าเพิ่งท้อ ใช้เป็นบทเรียน",
-      "money": "รายรับไม่แน่นอน ทำบัญชีรายรับรายจ่ายจะช่วยได้มาก"
+      "love": "Don't expect too much from the other person. Give love in a balanced way.",
+      "study": "Some subjects go well, others need more work. Try studying with a friend.",
+      "work": "Some work needs fixing. Don't feel down. Treat it as a lesson.",
+      "money": "Income is uncertain. Keeping track of what you earn and spend will help a lot."
     }
   },
   {
     "number": 12,
-    "level": "ดี",
-    "title": "ดอกไม้ริมทาง",
-    "poem": ["ดอกไม้บานริมทาง ส่งกลิ่นหอมทั่วไป", "ยิ้มรับทุกคนไว้ มิตรใหม่มาเพียบพร้อม"],
-    "meaning": "มิตรภาพและผู้คนรอบตัวนำโชคมาให้ การเปิดใจรู้จักคนใหม่ ๆ จะเปิดโอกาสดี",
+    "level": "Good",
+    "title": "Flowers by the Roadside",
+    "poem": ["Flowers bloom along the road with a sweet perfume,", "Smile at everyone, and new friends will soon bloom."],
+    "meaning": "Friends and the people around you bring good luck. Being open to new people will create good chances.",
     "advice": {
-      "love": "อาจเจอคนถูกใจจากกลุ่มเพื่อนหรืองานสังสรรค์",
-      "study": "การเรียนเป็นกลุ่มช่วยได้มาก แลกเปลี่ยนความรู้กับเพื่อน",
-      "work": "เครือข่ายคนรู้จักช่วยให้งานสำเร็จ อย่าลังเลที่จะขอความช่วยเหลือ",
-      "money": "มีโอกาสหารายได้จากคำแนะนำของเพื่อน แต่ตรวจสอบให้ดีก่อน"
+      "love": "You may meet someone you like through friends or at a party.",
+      "study": "Group study helps a lot. Share what you know with your friends.",
+      "work": "Your network helps you succeed. Don't hesitate to ask for help.",
+      "money": "A friend's tip may help you earn more, but check it carefully first."
     }
   },
   {
     "number": 13,
-    "level": "ควรระวัง",
-    "title": "หนทางมีหนาม",
-    "poem": ["หนทางนี้มีหนาม ก้าวตามต้องระวัง", "ช้า ๆ ได้พร้าเล่มงาม ใจเย็นจึงพ้นภัย"],
-    "meaning": "มีอุปสรรคซ่อนอยู่ ไม่ควรรีบร้อน ตรวจสอบรายละเอียดทุกอย่างก่อนตัดสินใจ",
+    "level": "Caution",
+    "title": "A Path with Thorns",
+    "poem": ["There are thorns along this path, so step with care,", "Go slowly and stay calm, and no harm will meet you there."],
+    "meaning": "There are hidden obstacles. Don't rush. Check every detail before you decide.",
     "advice": {
-      "love": "ระวังคนที่เข้ามาด้วยคำหวาน ใช้เวลาศึกษากันให้ดีก่อน",
-      "study": "อย่าใช้ทางลัดที่ไม่ถูกต้อง เช่น ลอกงาน อาจส่งผลเสียภายหลัง",
-      "work": "ระวังการเซ็นเอกสารหรือตกลงอะไรโดยไม่อ่านให้ละเอียด",
-      "money": "ระวังการถูกหลอกลวงหรือข้อเสนอที่ดีเกินจริง"
+      "love": "Be careful of people with sweet words. Take time to get to know them first.",
+      "study": "Don't take wrong shortcuts like copying work. It may hurt you later.",
+      "work": "Be careful about signing or agreeing to anything without reading it closely.",
+      "money": "Watch out for scams and offers that sound too good to be true."
     }
   },
   {
     "number": 14,
-    "level": "ดีมาก",
-    "title": "แสงเทียนในถ้ำ",
-    "poem": ["จุดเทียนในถ้ำมืด แสงยืดไกลทั่วทาง", "ปัญญาเป็นแสงสว่าง นำพ้นความมืดมน"],
-    "meaning": "ปัญหาที่เคยมืดมนจะคลี่คลายด้วยสติปัญญา ความคิดสร้างสรรค์ของคุณโดดเด่น",
+    "level": "Very Good",
+    "title": "A Candle in the Cave",
+    "poem": ["Light a candle in a dark cave, and its glow will spread,", "Wisdom is your light, it leads you through the dark ahead."],
+    "meaning": "Problems that seemed hopeless will be solved with clear thinking. Your creativity shines.",
     "advice": {
-      "love": "ความเข้าใจกันลึกซึ้งขึ้น คุยกันเรื่องอนาคตได้อย่างลงตัว",
-      "study": "ไอเดียแล่น เหมาะกับงานวิจัย รายงาน หรืองานสร้างสรรค์",
-      "work": "คุณจะเป็นคนแก้ปัญหาที่ทีมติดอยู่ได้ ผลงานเป็นที่ยอมรับ",
-      "money": "คิดหาช่องทางรายได้ใหม่ได้ดี ลองนำความถนัดมาสร้างรายได้"
+      "love": "You understand each other more deeply. Talking about the future goes well.",
+      "study": "Ideas flow easily. Great for research, reports, or creative work.",
+      "work": "You will solve the problem your team is stuck on. Your work will be recognized.",
+      "money": "You are good at finding new ways to earn. Try turning your skills into income."
     }
   },
   {
     "number": 15,
-    "level": "ดีเลิศ",
-    "title": "จันทร์เพ็ญเต็มดวง",
-    "poem": ["จันทร์เพ็ญเต็มดวงฟ้า สว่างทั่วนภาลัย", "สมหวังดั่งตั้งใจ ครบถ้วนทุกประการ"],
-    "meaning": "ทุกเรื่องสมบูรณ์พร้อม ความรัก การงาน การเงินดีพร้อมกันหมด เป็นช่วงเวลาแห่งความสุข",
+    "level": "Excellent",
+    "title": "The Full Moon",
+    "poem": ["The full moon lights up all the sky so bright,", "Your wishes all come true, everything turns out right."],
+    "meaning": "Everything is complete. Love, work, and money are all good at the same time. This is a happy time.",
     "advice": {
-      "love": "สมหวังในความรัก คนมีคู่อาจมีข่าวดีเรื่องการหมั้นหรือแต่งงาน",
-      "study": "ประสบความสำเร็จตามเป้าหมาย สอบติดที่หวังไว้",
-      "work": "งานสำเร็จลุล่วงอย่างสวยงาม ได้รับคำชมและรางวัล",
-      "money": "การเงินมั่งคั่ง มีเหลือเก็บและได้แบ่งปันผู้อื่น"
+      "love": "Your love wishes come true. Couples may have good news about an engagement or wedding.",
+      "study": "You reach your goals and get into the place you hoped for.",
+      "work": "Your work finishes beautifully, and you receive praise and rewards.",
+      "money": "You are well off, with money to save and to share with others."
     }
   },
   {
     "number": 16,
-    "level": "ดี",
-    "title": "นกน้อยทำรัง",
-    "poem": ["นกน้อยทำรังแต่พอตัว ไม่มัวโลภเกินไป", "ค่อยสร้างค่อยก่อไว้ มั่นคงอยู่ยืนนาน"],
-    "meaning": "รู้จักพอและวางแผนอย่างพอดี ชีวิตจะมั่นคง ไม่ต้องรีบร้อนไปไกลกว่ากำลัง",
+    "level": "Good",
+    "title": "A Small Bird Builds Its Nest",
+    "poem": ["The small bird builds a nest just right in size,", "Build slowly, piece by piece, and it will stand for life."],
+    "meaning": "Know what is enough and plan well. Your life will be stable. There is no need to rush beyond your strength.",
     "advice": {
-      "love": "ความรักที่เรียบง่ายแต่มั่นคง เห็นคุณค่าของคนข้างตัว",
-      "study": "ตั้งเป้าหมายที่ทำได้จริง แล้วค่อย ๆ เพิ่มขึ้น",
-      "work": "ทำงานตามแผนอย่างสม่ำเสมอ ผลงานจะมั่นคงและน่าเชื่อถือ",
-      "money": "เหมาะกับการเก็บออมและลดหนี้ ชีวิตทางการเงินจะมั่นคงขึ้น"
+      "love": "A simple but steady love. Value the person beside you.",
+      "study": "Set goals you can really reach, then raise them little by little.",
+      "work": "Work steadily according to plan. Your results will be solid and trusted.",
+      "money": "A good time to save and pay off debts. Your finances will become more stable."
     }
   },
   {
     "number": 17,
-    "level": "พอใช้",
-    "title": "ใบไม้เปลี่ยนสี",
-    "poem": ["ใบไม้เปลี่ยนสีใหม่ ตามฤดูหมุนเวียน", "สิ่งเก่าจงผ่อนเปลี่ยน ปรับตัวให้ทันกาล"],
-    "meaning": "กำลังเข้าสู่ช่วงเปลี่ยนแปลง อาจรู้สึกไม่มั่นคงบ้าง แต่การปรับตัวจะนำสิ่งดีมาให้",
+    "level": "Fair",
+    "title": "Leaves Change Color",
+    "poem": ["The leaves change color as the seasons turn,", "Let go of the old, there are new ways to learn."],
+    "meaning": "You are entering a time of change. You may feel unsure, but adapting will bring good things.",
     "advice": {
-      "love": "ความสัมพันธ์มีการเปลี่ยนแปลง เปิดใจคุยกันเรื่องสิ่งที่แต่ละคนต้องการ",
-      "study": "อาจต้องเปลี่ยนวิธีเรียนหรือแผนการเรียน ลองหาวิธีที่เหมาะกับตัวเอง",
-      "work": "มีการปรับโครงสร้างหรือเปลี่ยนงาน ให้มองเป็นโอกาสในการเรียนรู้",
-      "money": "รายจ่ายอาจเปลี่ยนไปตามสถานการณ์ ทบทวนแผนการใช้เงินใหม่"
+      "love": "Your relationship is changing. Talk openly about what each of you wants.",
+      "study": "You may need to change how you study. Find the method that fits you.",
+      "work": "There may be restructuring or a job change. See it as a chance to learn.",
+      "money": "Your expenses may change with the situation. Review your spending plan."
     }
   },
   {
     "number": 18,
-    "level": "ดีมาก",
-    "title": "ระฆังทองดังกังวาน",
-    "poem": ["ระฆังทองดังกังวาน ข่าวดีผ่านถึงตัว", "ชื่อเสียงขจรทั่ว ผู้คนต่างชื่นชม"],
-    "meaning": "จะมีข่าวดีและชื่อเสียงเข้ามา ผลงานของคุณจะเป็นที่รู้จักในวงกว้าง",
+    "level": "Very Good",
+    "title": "The Golden Bell Rings",
+    "poem": ["The golden bell rings out, good news is on its way,", "Your name will travel far, and people will praise you every day."],
+    "meaning": "Good news and recognition are coming. Many people will learn about your work.",
     "advice": {
-      "love": "มีคนแอบชื่นชมอยู่ เปิดใจรับฟังแล้วจะได้ข่าวดี",
-      "study": "ได้รับคำชมหรือรางวัลจากการแข่งขัน มีโอกาสได้นำเสนอผลงาน",
-      "work": "ผลงานได้รับการยอมรับจากหลายฝ่าย เหมาะกับการนำเสนองานต่อหน้าคนจำนวนมาก",
-      "money": "รายได้ดีจากชื่อเสียงและความน่าเชื่อถือ"
+      "love": "Someone secretly admires you. Be open and you will hear good news.",
+      "study": "You may win praise or a prize in a competition, and get a chance to present your work.",
+      "work": "Many people recognize your work. A great time to present in front of a big audience.",
+      "money": "Good income comes from your reputation and trust."
     }
   },
   {
     "number": 19,
-    "level": "ดี",
-    "title": "สายน้ำไหลเอื่อย",
-    "poem": ["สายน้ำไหลเอื่อยเอื่อย ไม่เหนื่อยไม่หยุดไหล", "ค่อยไปไม่หวั่นไหว ย่อมถึงทะเลกว้าง"],
-    "meaning": "ความสม่ำเสมอคือกุญแจสำคัญ ไม่ต้องรีบ แต่อย่าหยุด แล้วจะไปถึงเป้าหมาย",
+    "level": "Good",
+    "title": "The Gentle River",
+    "poem": ["The river flows gently, it never stops or tires,", "Keep moving without fear, and you'll reach the sea you desire."],
+    "meaning": "Being steady is the key. You don't need to rush, but don't stop, and you will reach your goal.",
     "advice": {
-      "love": "ความรักราบรื่น ใส่ใจกันสม่ำเสมอจะยิ่งผูกพัน",
-      "study": "อ่านหนังสือทีละน้อยแต่ทุกวัน ดีกว่าอ่านหนักครั้งเดียว",
-      "work": "งานคืบหน้าแบบค่อยเป็นค่อยไป อดทนแล้วผลลัพธ์จะดี",
-      "money": "ออมเงินทีละน้อยอย่างต่อเนื่อง จะเห็นผลในระยะยาว"
+      "love": "Love goes smoothly. Caring for each other regularly will bring you closer.",
+      "study": "Reading a little every day is better than cramming all at once.",
+      "work": "Work moves forward little by little. Be patient and the results will be good.",
+      "money": "Save a little at a time and you will see the results in the long run."
     }
   },
   {
     "number": 20,
-    "level": "ควรระวัง",
-    "title": "พายุตั้งเค้า",
-    "poem": ["พายุตั้งเค้ามา ฟ้าคะนองก้องไกล", "หลบพักอย่าฝืนไป รอลมสงบก่อนเดิน"],
-    "meaning": "มีเรื่องวุ่นวายหรือความขัดแย้งรออยู่ ควรถอยออกมาตั้งหลักและดูแลตัวเองให้ดี",
+    "level": "Caution",
+    "title": "A Storm Is Coming",
+    "poem": ["A storm is gathering, thunder rolls through the sky,", "Take shelter, don't push on, wait for the wind to die."],
+    "meaning": "Trouble or conflict may be ahead. Step back, get your balance, and take good care of yourself.",
     "advice": {
-      "love": "เลี่ยงการทำเรื่องเล็กให้เป็นเรื่องใหญ่ ให้เวลาแต่ละฝ่ายได้สงบใจ",
-      "study": "อย่าหักโหมจนเสียสุขภาพ พักผ่อนให้พอแล้วจะเรียนได้ดีกว่า",
-      "work": "ระวังความขัดแย้งในที่ทำงาน วางตัวเป็นกลางและไม่เข้าไปพัวพันเรื่องนินทา",
-      "money": "ระวังรายจ่ายฉุกเฉิน ตรวจสอบประกันและเงินสำรองให้พร้อม"
+      "love": "Don't turn small issues into big ones. Give each other time to calm down.",
+      "study": "Don't overwork and hurt your health. Rest well and you will study better.",
+      "work": "Watch out for conflict at work. Stay neutral and stay out of gossip.",
+      "money": "Watch out for emergency costs. Check your insurance and savings."
     }
   },
   {
     "number": 21,
-    "level": "ดีเลิศ",
-    "title": "ต้นโพธิ์ทองแผ่กิ่ง",
-    "poem": ["ต้นโพธิ์ทองแผ่กิ่ง ร่มเย็นยิ่งทั่วถิ่น", "บุญหนุนนำชีวิน ร่มเย็นเป็นสุขศรี"],
-    "meaning": "บุญเก่าหนุนนำ ชีวิตร่มเย็นเป็นสุข คุณเป็นที่พึ่งให้คนรอบข้างได้ และสิ่งดีจะย้อนกลับมาหาคุณ",
+    "level": "Excellent",
+    "title": "The Golden Bodhi Tree",
+    "poem": ["The golden Bodhi tree spreads its branches wide and cool,", "Your good deeds bring you peace, and happiness will rule."],
+    "meaning": "Your past good deeds support you, and your life is peaceful and happy. Others can rely on you, and good things will come back to you.",
     "advice": {
-      "love": "ความรักมั่นคงเหมือนต้นไม้ใหญ่ ครอบครัวและคนรักสนับสนุนกันเต็มที่",
-      "study": "เรียนเก่งจนเป็นที่พึ่งของเพื่อน การสอนผู้อื่นจะยิ่งทำให้คุณเก่งขึ้น",
-      "work": "มีโอกาสได้เป็นผู้นำ ทีมเชื่อมั่นและพร้อมทำงานไปกับคุณ",
-      "money": "มั่งคั่งมั่นคง ทรัพย์สินเพิ่มพูน เหมาะกับการวางแผนระยะยาว"
+      "love": "Your love is as strong as a big tree. Family and partner fully support each other.",
+      "study": "You are so good that friends rely on you. Teaching others will make you even better.",
+      "work": "You may get a chance to lead. Your team trusts you and is ready to follow.",
+      "money": "Wealth is stable and growing. A good time for long-term planning."
     }
   },
   {
     "number": 22,
-    "level": "ดี",
-    "title": "ประตูบานใหม่",
-    "poem": ["ประตูบานใหม่เปิด แสงเกิดส่องเข้ามา", "กล้าก้าวไปข้างหน้า พบโอกาสรออยู่"],
-    "meaning": "มีโอกาสใหม่เข้ามา อาจเป็นสถานที่ใหม่ คนใหม่ หรือสิ่งใหม่ที่น่าลอง",
+    "level": "Good",
+    "title": "A New Door Opens",
+    "poem": ["A new door opens wide and light comes shining in,", "Be brave and step ahead, new chances will begin."],
+    "meaning": "New opportunities are coming. It may be a new place, a new person, or something new worth trying.",
     "advice": {
-      "love": "คนโสดมีโอกาสได้พบคนใหม่ในสถานที่ไม่คุ้นเคย",
-      "study": "ลองเรียนวิชาหรือทักษะใหม่ที่สนใจ จะค้นพบความถนัดของตัวเอง",
-      "work": "มีงานใหม่หรือโปรเจกต์ใหม่ให้ลอง อย่าปฏิเสธเพียงเพราะไม่คุ้นเคย",
-      "money": "มีช่องทางรายได้ใหม่ ศึกษาให้ดีก่อนเริ่ม แล้วจะได้ผลดี"
+      "love": "Singles may meet someone new in an unfamiliar place.",
+      "study": "Try a new subject or skill you are curious about. You may discover your talent.",
+      "work": "A new job or project is waiting. Don't say no just because it is unfamiliar.",
+      "money": "A new way to earn money appears. Learn about it first and it will go well."
     }
   },
   {
     "number": 23,
-    "level": "ดีมาก",
-    "title": "ปลาทองแหวกว่าย",
-    "poem": ["ปลาทองแหวกว่ายน้ำ ใสงามในบึงบัว", "อุดมสมบูรณ์ทั่ว ลาภผลไหลมาเทมา"],
-    "meaning": "ความอุดมสมบูรณ์มาเยือน มีกินมีใช้ไม่ขาดมือ เรื่องต่าง ๆ ลื่นไหลดั่งปลาในน้ำ",
+    "level": "Very Good",
+    "title": "The Swimming Goldfish",
+    "poem": ["The goldfish swims in clear water by the lotus bloom,", "Plenty fills your life, good fortune fills the room."],
+    "meaning": "Plenty is coming your way. You will have all you need, and things will flow as easily as a fish in water.",
     "advice": {
-      "love": "ความรักลื่นไหลเป็นธรรมชาติ อยู่ด้วยกันแล้วสบายใจ",
-      "study": "เรียนรู้ได้เร็วและสนุก เหมาะกับการเรียนภาษาหรือทักษะใหม่",
-      "work": "งานคล่องตัว ลูกค้าหรือผู้ร่วมงานให้ความร่วมมือดี",
-      "money": "การค้าขายดี มีลาภผลไหลเข้ามาอย่างต่อเนื่อง"
+      "love": "Love flows naturally. You feel relaxed and happy together.",
+      "study": "You learn quickly and have fun. Great for learning a language or a new skill.",
+      "work": "Work runs smoothly. Clients and coworkers cooperate well.",
+      "money": "Business is good, and money keeps flowing in."
     }
   },
   {
     "number": 24,
-    "level": "พอใช้",
-    "title": "ตะเกียงใกล้หมดไฟ",
-    "poem": ["ตะเกียงใกล้หมดน้ำมัน แสงนั้นเริ่มริบหรี่", "เติมพลังให้ดี แล้วจึงส่องทางต่อ"],
-    "meaning": "คุณอาจเหนื่อยล้าเกินไป ควรพักผ่อนและเติมพลังก่อน แล้วค่อยลุยต่อ",
+    "level": "Fair",
+    "title": "A Lamp Running Low",
+    "poem": ["The lamp is running low, its light begins to fade,", "Refill your strength first, then light the path you've made."],
+    "meaning": "You may be too tired. Rest and recharge first, then keep going.",
     "advice": {
-      "love": "ให้เวลาตัวเองบ้าง ความรักที่ดีเริ่มจากการดูแลใจตัวเอง",
-      "study": "อย่าอดนอนอ่านหนังสือ พักให้พอจะจำได้ดีกว่า",
-      "work": "งานล้นมือ ลองจัดลำดับความสำคัญและปฏิเสธสิ่งที่ไม่จำเป็น",
-      "money": "ระวังการใช้เงินเพื่อคลายเครียด ลองหากิจกรรมที่ไม่ต้องใช้เงิน"
+      "love": "Give yourself some time. Good love starts with caring for your own heart.",
+      "study": "Don't stay up all night studying. Enough rest helps you remember more.",
+      "work": "Too much work. Set priorities and say no to what isn't necessary.",
+      "money": "Be careful about spending money to relieve stress. Try free activities instead."
     }
   },
   {
     "number": 25,
-    "level": "ดี",
-    "title": "สะพานไม้ข้ามคลอง",
-    "poem": ["สะพานไม้ข้ามคลอง มีคนประคองข้ามไป", "มิตรแท้อยู่ใกล้ใกล้ ช่วยกันได้ทุกยาม"],
-    "meaning": "มีคนพร้อมช่วยเหลือคุณเสมอ ปัญหาที่เจอจะผ่านไปได้ด้วยความร่วมมือ",
+    "level": "Good",
+    "title": "The Wooden Bridge",
+    "poem": ["A wooden bridge across the stream, a hand to help you through,", "True friends are always near, ready to help you too."],
+    "meaning": "There is always someone ready to help you. Your problems will be solved by working together.",
     "advice": {
-      "love": "คนข้างกายพร้อมสนับสนุนคุณ อย่าลืมขอบคุณและดูแลเขาด้วย",
-      "study": "ติดตรงไหนให้ถามเพื่อนหรือครู จะเข้าใจได้เร็วขึ้น",
-      "work": "การประสานงานระหว่างทีมช่วยให้งานสำเร็จ",
-      "money": "หากติดขัดเรื่องเงิน จะมีคนช่วยเหลือ แต่ควรวางแผนคืนให้ชัดเจน"
+      "love": "The person beside you supports you. Remember to thank them and take care of them too.",
+      "study": "If you get stuck, ask a friend or teacher. You will understand faster.",
+      "work": "Teamwork between groups will help the job succeed.",
+      "money": "If money is tight, someone will help, but make a clear plan to pay them back."
     }
   },
   {
     "number": 26,
-    "level": "ดีมาก",
-    "title": "ดาวเหนือนำทาง",
-    "poem": ["ดาวเหนือส่องนำทาง กลางทะเลมืดมิด", "ใจมั่นไม่หลงผิด ถึงจุดหมายแน่นอน"],
-    "meaning": "คุณรู้ว่าตัวเองต้องการอะไร เป้าหมายชัดเจนจะนำทางไปสู่ความสำเร็จ",
+    "level": "Very Good",
+    "title": "The North Star Guides You",
+    "poem": ["The North Star shines to guide you on a dark and stormy sea,", "Keep your heart steady, and you'll reach where you want to be."],
+    "meaning": "You know what you want. Clear goals will lead you to success.",
     "advice": {
-      "love": "รู้ใจตัวเองชัดเจน ความรักที่จริงใจจะนำไปสู่ความสัมพันธ์ที่ดี",
-      "study": "ตั้งเป้าหมายการเรียนให้ชัด แล้วจะมีแรงจูงใจตลอดทาง",
-      "work": "เหมาะกับการวางแผนอาชีพระยะยาว ทิศทางที่เลือกถูกต้องแล้ว",
-      "money": "วางเป้าหมายการออมให้ชัด จะไปถึงได้เร็วกว่าที่คิด"
+      "love": "You know your own heart. Honest love will lead to a good relationship.",
+      "study": "Set clear study goals and you will stay motivated all the way.",
+      "work": "A good time to plan your long-term career. You have chosen the right direction.",
+      "money": "Set a clear savings goal and you will reach it sooner than you think."
     }
   },
   {
     "number": 27,
-    "level": "พอใช้",
-    "title": "ไผ่ลู่ลม",
-    "poem": ["ไผ่ลู่ตามแรงลม ไม่ล้มไม่หักลง", "อ่อนน้อมแต่มั่นคง พ้นภัยได้ทุกครา"],
-    "meaning": "ช่วงนี้ต้องรู้จักยืดหยุ่น ยอมบ้างในเรื่องเล็ก แล้วจะรักษาสิ่งสำคัญไว้ได้",
+    "level": "Fair",
+    "title": "Bamboo Bends in the Wind",
+    "poem": ["The bamboo bends with the wind, it does not break or fall,", "Be gentle yet be strong, and you will pass it all."],
+    "meaning": "Be flexible right now. Give in on small things, and you will keep what really matters.",
     "advice": {
-      "love": "ยอมกันคนละนิด ความรักจะไปต่อได้ยาวนาน",
-      "study": "อาจไม่ได้เรียนในสิ่งที่ชอบทั้งหมด แต่ทุกวิชามีประโยชน์ในวันหน้า",
-      "work": "รับฟังความเห็นต่าง ปรับตัวเข้ากับทีมแล้วงานจะเดินหน้า",
-      "money": "การเงินพอประคองตัว อย่าเสี่ยงลงทุนในสิ่งที่ยังไม่เข้าใจ"
+      "love": "Give a little on both sides, and your love will last a long time.",
+      "study": "You may not love every subject, but each one will be useful someday.",
+      "work": "Listen to different opinions. Adapt to your team and the work will move forward.",
+      "money": "You can get by. Don't take risks on investments you don't understand."
     }
   },
   {
     "number": 28,
-    "level": "ดีเลิศ",
-    "title": "ฟ้าประทานพร",
-    "poem": ["ฟ้าประทานพรให้ สุขใจทั่วสิบทิศ", "ทำการใดสัมฤทธิ์ ดั่งจิตที่ตั้งไว้"],
-    "meaning": "เป็นใบที่ดีที่สุดใบหนึ่ง สิ่งที่ตั้งใจมีแนวโน้มสำเร็จ จงทำความดีต่อไปและแบ่งปันความสุขให้ผู้อื่น",
+    "level": "Excellent",
+    "title": "A Blessing from Heaven",
+    "poem": ["Heaven sends a blessing, joy in every direction,", "Whatever you set out to do will reach perfection."],
+    "meaning": "One of the best fortunes. What you hope for is likely to succeed. Keep doing good and share your happiness with others.",
     "advice": {
-      "love": "สมหวังทุกประการ ความรักเต็มไปด้วยความเข้าใจและความสุข",
-      "study": "สำเร็จการศึกษาตามที่หวัง หรือได้เข้าเรียนในที่ที่ฝันไว้",
-      "work": "ประสบความสำเร็จอย่างงดงาม เป็นที่ยอมรับทั้งในและนอกองค์กร",
-      "money": "โชคลาภมากมาย รายได้มั่นคงและเพิ่มพูนต่อเนื่อง"
+      "love": "All your wishes come true. Your love is full of understanding and happiness.",
+      "study": "You finish your studies as you hoped, or get into the school of your dreams.",
+      "work": "Great success. You are respected both inside and outside your organization.",
+      "money": "Lots of good luck. Your income is stable and keeps growing."
     }
   }
 ]

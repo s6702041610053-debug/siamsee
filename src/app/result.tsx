@@ -1,7 +1,7 @@
 import { router, useLocalSearchParams } from 'expo-router';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { Button, Card, Divider } from '../components/Ornament';
-import { formatThaiDate } from '../lib/date';
+import { formatDate } from '../lib/date';
 import { getCategory, getFortune, LEVEL_STYLE } from '../lib/fortunes';
 import { colors, radius } from '../theme';
 
@@ -13,7 +13,7 @@ export default function ResultScreen() {
   if (!fortune) {
     return (
       <View style={styles.center}>
-        <Text style={styles.meaning}>ไม่พบใบทำนาย</Text>
+        <Text style={styles.meaning}>Fortune not found</Text>
       </View>
     );
   }
@@ -31,7 +31,7 @@ export default function ResultScreen() {
       <Card>
         <View style={styles.head}>
           <View style={styles.numCircle}>
-            <Text style={styles.numSmall}>ใบที่</Text>
+            <Text style={styles.numSmall}>No.</Text>
             <Text style={styles.num}>{fortune.number}</Text>
           </View>
           <View style={{ flex: 1 }}>
@@ -52,23 +52,23 @@ export default function ResultScreen() {
         <Divider />
 
         <Text style={styles.meaning}>{fortune.meaning}</Text>
-        {params.at ? <Text style={styles.date}>เสี่ยงเมื่อ {formatThaiDate(Number(params.at))}</Text> : null}
+        {params.at ? <Text style={styles.date}>Drawn on {formatDate(Number(params.at))}</Text> : null}
       </Card>
 
       <View style={styles.focus}>
         <Text style={styles.focusTitle}>
-          {category.emoji} คำทำนายด้าน{category.label}
+          {category.emoji} {category.label}
         </Text>
         <Text style={styles.focusText}>{fortune.advice[category.id]}</Text>
       </View>
 
       <View style={styles.actions}>
         <Button
-          label="🎋 เขย่าอีกครั้ง"
+          label="🎋 Shake Again"
           onPress={() => router.replace({ pathname: '/shake', params: { category: category.id } })}
         />
-        <Button label="เลือกหมวดใหม่" variant="ghost" onPress={goHome} />
-        <Button label="📜 ดูประวัติ" variant="ghost" onPress={() => router.push('/history')} />
+        <Button label="Choose Another Topic" variant="ghost" onPress={goHome} />
+        <Button label="📜 View History" variant="ghost" onPress={() => router.push('/history')} />
       </View>
     </ScrollView>
   );

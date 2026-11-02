@@ -1,71 +1,69 @@
-# เขย่าเสี่ยงเซียมซี 🎋
+# Shake for Siamsee 🎋
 
-แอปเสี่ยงเซียมซีด้วยการเขย่ามือถือจริง — Expo SDK 58 (React Native + TypeScript) รันบน iPhone ผ่าน Expo Go
+Draw a Thai fortune stick (siamsee) by really shaking your phone. Built with Expo SDK 58 (React Native + TypeScript) and runs on iPhone with Expo Go.
 
-## วิธีรันบน iPhone (จากเครื่อง Windows)
+## Run on iPhone
 
-1. ติดตั้ง **Expo Go** จาก App Store บน iPhone
-2. ให้คอมกับ iPhone อยู่ **Wi-Fi วงเดียวกัน**
-3. ในโฟลเดอร์โปรเจกต์ รัน
+1. Install **Expo Go** from the App Store and update it to the latest version (SDK 58).
+2. Connect your computer and iPhone to the **same Wi-Fi**.
+3. In the project folder, run:
    ```bash
    npm install
    npx expo start
    ```
-4. เปิดแอป **กล้อง** ของ iPhone สแกน QR code ในเทอร์มินัล → แตะลิงก์ที่ขึ้นมา → เปิดใน Expo Go
-5. ถ้าครั้งแรก Windows Firewall ถาม ให้กด **Allow** ให้ Node.js (Private network)
+4. Open the iPhone **Camera** app, scan the QR code in the terminal, and tap the link to open it in Expo Go.
+5. If Windows Firewall asks, click **Allow** for Node.js (Private network).
 
-**ถ้าสแกนแล้วต่อไม่ติด** (Wi-Fi ที่มหาลัย/ออฟฟิศมักบล็อก) ใช้โหมด tunnel แทน:
+**Can't connect after scanning?** (University or office Wi-Fi often blocks it.) Use tunnel mode:
 ```bash
 npx expo start --tunnel
 ```
 
-> Expo Go บน App Store ต้องรองรับ SDK 58 — ถ้าขึ้นว่า SDK ไม่ตรง ให้อัปเดต Expo Go เป็นเวอร์ชันล่าสุด
+## How to play
 
-## วิธีเล่น
+1. Choose a topic: Love / Study / Work / Money
+2. Shake your phone until the power bar is full (the target is random each round, 55–95%)
+3. **Tilt the top of the phone down**, about 10° below horizontal, and a stick drops
+4. Read your fortune. It is saved to History automatically.
 
-1. เลือกหมวด: ความรัก / การเรียน / การงาน / การเงิน
-2. เขย่ามือถือจนแถบพลังเต็ม (เกณฑ์สุ่มใหม่ทุกรอบ 55–95%)
-3. **เอียงหัวเครื่องลง** ต่ำกว่าแนวนอนประมาณ 10° → ไม้หล่น
-4. อ่านใบทำนาย — บันทึกลงประวัติอัตโนมัติ
+Tap **DEBUG** at the top right to see live sensor graphs (useful for presentations; mirror the iPhone screen to a projector with Screen Mirroring).
 
-แตะปุ่ม **DEBUG** มุมขวาบนเพื่อดูกราฟเซนเซอร์แบบเรียลไทม์ (เหมาะตอนพรีเซนต์ ต่อจอ iPhone ขึ้นโปรเจกเตอร์ได้ด้วย Screen Mirroring)
+## How the sensors work
 
-## หลักการทำงานของเซนเซอร์
-
-| เรื่อง | วิธีคำนวณ | ไฟล์ |
+| Feature | Method | File |
 |---|---|---|
-| แรงเขย่า | `force = |√(x²+y²+z²) − 1|` หน่วย g (Accelerometer 50 Hz) | `src/lib/useShakeEngine.ts` |
-| นับการเขย่า | `force > 0.7g` และห่างจากครั้งก่อน ≥ 150 ms | 〃 |
-| พลัง | +3% + 4%×force ต่อครั้ง (สูงสุด 12%) · หยุดเขย่า 350 ms แล้วลด 18%/วินาที | 〃 |
-| พลังเต็ม | ถึงเกณฑ์สุ่ม → ค้างพลังไว้ 2.5 วินาทีให้มีเวลาเอียง | 〃 |
-| มุมเอียง | low-pass filter หาทิศแรงโน้มถ่วง → `elevation = asin(−gy)` (ตั้งตรง = 90°, วางราบ = 0°, หัวชี้ลง < 0°) | 〃 |
-| กระบอกสั่น | ใช้ความเร่งเชิงเส้น (ค่าดิบ − แรงโน้มถ่วง) ขยับ/โยกภาพตามแรงจริง | `src/components/Cylinder.tsx` |
-| Gyroscope | แสดงความเร็วเชิงมุมในกราฟ Debug | `src/lib/useShakeEngine.ts` |
+| Shake force | `force = |√(x²+y²+z²) − 1|` in g (Accelerometer at 50 Hz) | `src/lib/useShakeEngine.ts` |
+| Shake count | `force > 0.7g` and at least 150 ms since the last one | 〃 |
+| Power | +3% + 4%×force per shake (max 12%) · after 350 ms without shaking, drains 18%/second | 〃 |
+| Full power | When the random target is reached, power is held for 2.5 seconds so you have time to tilt | 〃 |
+| Tilt angle | Low-pass filter finds the gravity direction → `elevation = asin(−gy)` (upright = 90°, flat = 0°, top pointing down < 0°) | 〃 |
+| Cup motion | Linear acceleration (raw − gravity) moves and rocks the cup image | `src/components/Cylinder.tsx` |
+| Gyroscope | Angular speed shown in the Debug graph | `src/lib/useShakeEngine.ts` |
 
-ปรับค่าทั้งหมดได้ที่ `SHAKE_CONFIG` ในไฟล์ `src/lib/useShakeEngine.ts`
+All values can be tuned in `SHAKE_CONFIG` in `src/lib/useShakeEngine.ts`.
 
-## โครงสร้างไฟล์
+## Project structure
 
 ```
 src/
-  app/                  หน้าจอ (Expo Router)
-    _layout.tsx         Stack + ธีมแถบหัว
-    index.tsx           หน้าเลือกหมวด
-    shake.tsx           หน้าเขย่า + แอนิเมชันไม้หล่น + Debug
-    result.tsx          หน้าใบทำนาย
-    history.tsx         หน้าประวัติ
+  app/                  Screens (Expo Router)
+    _layout.tsx         Stack + header theme
+    index.tsx           Choose a topic
+    shake.tsx           Shake screen + stick-drop animation + Debug
+    result.tsx          Fortune result
+    history.tsx         History
   components/           Cylinder, Stick, SensorGraph, Ornament
-  data/fortunes.json    คำทำนาย 28 ใบ (ระดับดวง + คำแนะนำ 4 หมวด)
+  data/fortunes.json    28 fortunes (luck level + advice for 4 topics)
   lib/
-    useShakeEngine.ts   ตรรกะเซนเซอร์ทั้งหมด
-    feedback.ts         เสียง (expo-audio) + สั่น (expo-haptics)
+    useShakeEngine.ts   All sensor logic
+    feedback.ts         Sound (expo-audio) + vibration (expo-haptics)
     history.ts          AsyncStorage
-assets/sounds/          เสียงไม้กระทบ (สังเคราะห์ขึ้นเอง)
+assets/sounds/          Wooden stick sounds (generated by script)
 ```
 
-## ทดสอบบนคอม (ไม่มีเซนเซอร์)
+## Test on a computer (no sensors)
 
 ```bash
 npx expo start --web
 ```
-บนเว็บไม่มีเซนเซอร์ แอปจะสลับเป็นโหมด "แตะกระบอกเพื่อจำลองการเขย่า" ให้อัตโนมัติ
+The web has no motion sensors, so the app switches to "tap the cup to simulate shaking" automatically.

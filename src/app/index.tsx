@@ -6,10 +6,10 @@ import { CATEGORIES } from '../lib/fortunes';
 import { colors, radius } from '../theme';
 
 const STEPS = [
-  'ตั้งจิตอธิษฐาน แล้วเลือกเรื่องที่อยากถาม',
-  'เขย่ามือถือให้แถบพลังเต็ม',
-  'เอียงมือถือลง (หัวเครื่องชี้ลงพื้น) ให้ไม้หล่น',
-  'อ่านใบทำนายตามเลขไม้ที่ได้',
+  'Make a wish and choose what you want to ask about',
+  'Shake your phone until the power bar is full',
+  'Tilt the phone forward (top pointing down) to drop a stick',
+  'Read the fortune for your stick number',
 ];
 
 export default function CategoryScreen() {
@@ -18,13 +18,13 @@ export default function CategoryScreen() {
       <View style={styles.hero}>
         <Cylinder scale={0.42} />
         <View style={{ flex: 1 }}>
-          <Text style={styles.title}>เซียมซี</Text>
-          <Text style={styles.subtitle}>เสี่ยงทายดวงชะตา 28 ใบ{'\n'}ด้วยการเขย่ามือถือจริง</Text>
+          <Text style={styles.title}>Siamsee</Text>
+          <Text style={styles.subtitle}>28 Thai fortune sticks{'\n'}Draw one by really shaking your phone</Text>
         </View>
       </View>
 
       <Divider />
-      <Text style={styles.section}>เลือกเรื่องที่อยากเสี่ยง</Text>
+      <Text style={styles.section}>What do you want to ask about?</Text>
 
       <View style={styles.grid}>
         {CATEGORIES.map((c) => (
@@ -42,7 +42,7 @@ export default function CategoryScreen() {
 
       <Divider />
       <Card>
-        <Text style={styles.howTitle}>วิธีเสี่ยงเซียมซี</Text>
+        <Text style={styles.howTitle}>How to Play</Text>
         {STEPS.map((s, i) => (
           <View key={i} style={styles.stepRow}>
             <View style={styles.stepNum}>
@@ -54,7 +54,7 @@ export default function CategoryScreen() {
       </Card>
 
       <View style={{ height: 16 }} />
-      <Button label="📜 ประวัติการเสี่ยง" variant="ghost" onPress={() => router.push('/history')} />
+      <Button label="📜 History" variant="ghost" onPress={() => router.push('/history')} />
     </ScrollView>
   );
 }

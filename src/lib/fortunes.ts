@@ -2,7 +2,7 @@ import data from '../data/fortunes.json';
 
 export type CategoryId = 'love' | 'study' | 'work' | 'money';
 
-export type Level = 'ดีเลิศ' | 'ดีมาก' | 'ดี' | 'พอใช้' | 'ควรระวัง';
+export type Level = 'Excellent' | 'Very Good' | 'Good' | 'Fair' | 'Caution';
 
 export type Fortune = {
   number: number;
@@ -14,18 +14,18 @@ export type Fortune = {
 };
 
 export const CATEGORIES: { id: CategoryId; label: string; emoji: string; hint: string }[] = [
-  { id: 'love', label: 'ความรัก', emoji: '💗', hint: 'คู่ครอง เนื้อคู่ ความสัมพันธ์' },
-  { id: 'study', label: 'การเรียน', emoji: '📚', hint: 'สอบ เกรด การศึกษาต่อ' },
-  { id: 'work', label: 'การงาน', emoji: '💼', hint: 'อาชีพ หัวหน้า เพื่อนร่วมงาน' },
-  { id: 'money', label: 'การเงิน', emoji: '💰', hint: 'โชคลาภ รายรับ รายจ่าย' },
+  { id: 'love', label: 'Love', emoji: '💗', hint: 'Partner, soulmate, relationships' },
+  { id: 'study', label: 'Study', emoji: '📚', hint: 'Exams, grades, further study' },
+  { id: 'work', label: 'Work', emoji: '💼', hint: 'Career, boss, coworkers' },
+  { id: 'money', label: 'Money', emoji: '💰', hint: 'Luck, income, spending' },
 ];
 
 export const LEVEL_STYLE: Record<Level, { color: string; stars: number }> = {
-  ดีเลิศ: { color: '#B8860B', stars: 5 },
-  ดีมาก: { color: '#C8372D', stars: 4 },
-  ดี: { color: '#2E7D32', stars: 3 },
-  พอใช้: { color: '#8D6E63', stars: 2 },
-  ควรระวัง: { color: '#5D4037', stars: 1 },
+  Excellent: { color: '#B8860B', stars: 5 },
+  'Very Good': { color: '#C8372D', stars: 4 },
+  Good: { color: '#2E7D32', stars: 3 },
+  Fair: { color: '#8D6E63', stars: 2 },
+  Caution: { color: '#5D4037', stars: 1 },
 };
 
 export const FORTUNES = data as Fortune[];

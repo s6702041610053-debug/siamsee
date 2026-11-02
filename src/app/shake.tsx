@@ -85,11 +85,11 @@ export default function ShakeScreen() {
   });
   const { snap, anim, available } = engine;
 
-  let status = 'ตั้งจิตอธิษฐาน แล้วเขย่ามือถือ';
-  if (available === false) status = 'ไม่พบเซนเซอร์ — แตะกระบอกเพื่อจำลองการเขย่า';
-  else if (stick !== null) status = `ได้ไม้เบอร์ ${stick}`;
-  else if (snap.ready) status = 'พลังเต็มแล้ว! เอียงมือถือลงให้ไม้หล่น ⤵';
-  else if (snap.power > 1) status = 'เขย่าต่อไป…';
+  let status = 'Make a wish, then shake your phone';
+  if (available === false) status = 'No sensor found — tap the cup to simulate shaking';
+  else if (stick !== null) status = `You got stick No. ${stick}`;
+  else if (snap.ready) status = 'Full power! Tilt the phone forward to drop a stick ⤵';
+  else if (snap.power > 1) status = 'Keep shaking…';
 
   const barWidth = anim.power.interpolate({ inputRange: [0, 100], outputRange: ['0%', '100%'] });
   const rot = fall.rot.interpolate({ inputRange: [0, 1.25], outputRange: ['0deg', '450deg'] });
@@ -136,7 +136,7 @@ export default function ShakeScreen() {
             pointerEvents="none"
             style={[styles.badge, { opacity: fall.badge, transform: [{ scale: fall.badge }] }]}
           >
-            <Text style={styles.badgeSmall}>ไม้เบอร์</Text>
+            <Text style={styles.badgeSmall}>Stick</Text>
             <Text style={styles.badgeNum}>{stick}</Text>
           </Animated.View>
         )}
@@ -144,9 +144,9 @@ export default function ShakeScreen() {
 
       <View style={styles.meterBox}>
         <View style={styles.meterLabels}>
-          <Text style={styles.meterLabel}>พลังเขย่า</Text>
+          <Text style={styles.meterLabel}>Shake Power</Text>
           <Text style={styles.meterLabel}>
-            {Math.round(snap.power)}% · เขย่าแล้ว {snap.count} ครั้ง
+            {Math.round(snap.power)}% · {snap.count} shakes
           </Text>
         </View>
         <View style={styles.bar}>
@@ -157,7 +157,7 @@ export default function ShakeScreen() {
         </View>
         <View style={styles.tiltRow}>
           <Text style={styles.tiltText}>
-            มุมเอียง {Math.round(snap.elevation)}° {snap.tilted ? '✅ เอียงลงแล้ว' : '— ต้องเอียงหัวเครื่องลง'}
+            Tilt {Math.round(snap.elevation)}° {snap.tilted ? '✅ Tilted down' : '— Tilt the top of the phone down'}
           </Text>
         </View>
       </View>
@@ -165,14 +165,14 @@ export default function ShakeScreen() {
       {debug && (
         <View style={styles.debugPanel}>
           <SensorGraph
-            title="แรงเขย่า |√(x²+y²+z²) − 1|"
+            title="Shake force |√(x²+y²+z²) − 1|"
             samples={snap.samples}
             capacity={SHAKE_CONFIG.historySize}
             min={0}
             max={3}
             height={70}
             series={[{ key: 'force', color: colors.goldLight, label: 'force (g)', width: 2 }]}
-            marks={[{ value: SHAKE_CONFIG.threshold, color: '#FF6B6B', label: `เกณฑ์ ${SHAKE_CONFIG.threshold}g` }]}
+            marks={[{ value: SHAKE_CONFIG.threshold, color: '#FF6B6B', label: `Threshold ${SHAKE_CONFIG.threshold}g` }]}
           />
           <SensorGraph
             title="Accelerometer"
@@ -199,19 +199,19 @@ export default function ShakeScreen() {
           <View style={styles.statsGrid}>
             <Stat label="force" value={`${snap.force.toFixed(2)} g`} />
             <Stat label="power" value={`${snap.power.toFixed(0)}%`} />
-            <Stat label="เกณฑ์ไม้หล่น" value={`${snap.dropAt}%`} />
+            <Stat label="Drop at" value={`${snap.dropAt}%`} />
             <Stat label="shakes" value={String(snap.count)} />
             <Stat label="elevation" value={`${snap.elevation.toFixed(0)}°`} />
-            <Stat label="ต้องเอียงถึง" value={`≤ ${SHAKE_CONFIG.tiltDownDeg}°`} />
+            <Stat label="Tilt needed" value={`≤ ${SHAKE_CONFIG.tiltDownDeg}°`} />
             <Stat label="gyro" value={`${snap.gyro.toFixed(2)}`} />
             <Stat label="ready" value={snap.ready ? 'YES' : 'no'} />
           </View>
           <View style={styles.debugActions}>
             <Pressable style={styles.smallBtn} onPress={engine.simulateShake}>
-              <Text style={styles.smallBtnText}>จำลองเขย่า</Text>
+              <Text style={styles.smallBtnText}>Simulate Shake</Text>
             </Pressable>
             <Pressable style={styles.smallBtn} onPress={engine.reset}>
-              <Text style={styles.smallBtnText}>รีเซ็ตรอบ</Text>
+              <Text style={styles.smallBtnText}>Reset Round</Text>
             </Pressable>
           </View>
         </View>

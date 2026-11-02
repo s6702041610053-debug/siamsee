@@ -17,10 +17,10 @@ export default function RootLayout() {
           contentStyle: { backgroundColor: colors.cream },
         }}
       >
-        <Stack.Screen name="index" options={{ title: 'เขย่าเสี่ยงเซียมซี' }} />
-        <Stack.Screen name="shake" options={{ title: 'เขย่าเซียมซี' }} />
-        <Stack.Screen name="result" options={{ title: 'ใบทำนาย' }} />
-        <Stack.Screen name="history" options={{ title: 'ประวัติการเสี่ยง' }} />
+        <Stack.Screen name="index" options={{ title: 'Shake for Siamsee' }} />
+        <Stack.Screen name="shake" options={{ title: 'Shake' }} />
+        <Stack.Screen name="result" options={{ title: 'Your Fortune' }} />
+        <Stack.Screen name="history" options={{ title: 'History' }} />
       </Stack>
     </>
   );

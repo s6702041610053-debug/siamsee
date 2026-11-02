@@ -2,7 +2,7 @@ import { router, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
 import { Alert, FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 import { Button, Divider } from '../components/Ornament';
-import { formatThaiDate } from '../lib/date';
+import { formatDate } from '../lib/date';
 import { CATEGORIES, getCategory, getFortune, LEVEL_STYLE } from '../lib/fortunes';
 import { clearHistory, getHistory, type HistoryEntry } from '../lib/history';
 import { colors, radius } from '../theme';
@@ -17,10 +17,10 @@ export default function HistoryScreen() {
   );
 
   const confirmClear = () =>
-    Alert.alert('ล้างประวัติ', 'ต้องการลบประวัติการเสี่ยงทั้งหมดใช่ไหม?', [
-      { text: 'ยกเลิก', style: 'cancel' },
+    Alert.alert('Clear History', 'Delete all of your fortune history?', [
+      { text: 'Cancel', style: 'cancel' },
       {
-        text: 'ลบทั้งหมด',
+        text: 'Delete All',
         style: 'destructive',
         onPress: () => clearHistory().then(() => setItems([])),
       },
@@ -32,8 +32,8 @@ export default function HistoryScreen() {
     return (
       <View style={styles.empty}>
         <Text style={styles.emptyEmoji}>🎋</Text>
-        <Text style={styles.emptyText}>ยังไม่มีประวัติการเสี่ยง</Text>
-        <Button label="ไปเสี่ยงเซียมซี" onPress={() => router.back()} />
+        <Text style={styles.emptyText}>No fortunes yet</Text>
+        <Button label="Draw a Fortune" onPress={() => router.back()} />
       </View>
     );
   }
@@ -45,7 +45,7 @@ export default function HistoryScreen() {
       contentContainerStyle={styles.container}
       ListHeaderComponent={
         <View>
-          <Text style={styles.total}>เสี่ยงไปแล้ว {items.length} ครั้ง</Text>
+          <Text style={styles.total}>{items.length} {items.length === 1 ? 'fortune' : 'fortunes'} drawn</Text>
           <View style={styles.counts}>
             {CATEGORIES.map((c) => (
               <View key={c.id} style={styles.countChip}>
@@ -78,7 +78,7 @@ export default function HistoryScreen() {
             <View style={{ flex: 1 }}>
               <Text style={styles.title}>{f?.title ?? '-'}</Text>
               <Text style={styles.meta}>
-                {c.emoji} {c.label} · {formatThaiDate(item.at)}
+                {c.emoji} {c.label} · {formatDate(item.at)}
               </Text>
             </View>
             {f && lv && (
@@ -91,7 +91,7 @@ export default function HistoryScreen() {
       }}
       ListFooterComponent={
         <View style={{ marginTop: 16 }}>
-          <Button label="🗑 ล้างประวัติทั้งหมด" variant="ghost" onPress={confirmClear} />
+          <Button label="🗑 Clear All History" variant="ghost" onPress={confirmClear} />
         </View>
       }
     />

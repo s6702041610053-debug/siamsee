@@ -95,11 +95,11 @@ export default function Cylinder({ dx, dy, elevation, scale = 1 }: Props) {
           {/* medallion */}
           <Circle cx={90} cy={212} r={40} fill={colors.redDark} stroke={colors.gold} strokeWidth={4} />
           <Circle cx={90} cy={212} r={32} fill="none" stroke={colors.goldLight} strokeWidth={1.5} strokeDasharray="4 3" />
-          <SvgText x={90} y={207} fontSize={17} fontWeight="bold" fill={colors.goldLight} textAnchor="middle">
-            เซียม
+          <SvgText x={90} y={207} fontSize={15} fontWeight="bold" fill={colors.goldLight} textAnchor="middle">
+            SIAM
           </SvgText>
-          <SvgText x={90} y={228} fontSize={17} fontWeight="bold" fill={colors.goldLight} textAnchor="middle">
-            ซี
+          <SvgText x={90} y={228} fontSize={15} fontWeight="bold" fill={colors.goldLight} textAnchor="middle">
+            SEE
           </SvgText>
           {/* kanok-style flourishes */}
           <Path d="M40 168 q10 -10 20 0 q10 10 20 0" stroke={colors.goldLight} strokeWidth={2} fill="none" />
