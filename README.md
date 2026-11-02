@@ -1,10 +1,10 @@
 # Shake for Siamsee 🎋
 
-Draw a Thai fortune stick (siamsee) by really shaking your phone. Built with Expo SDK 58 (React Native + TypeScript) and runs on iPhone with Expo Go.
+Draw a Thai fortune stick (siamsee) by really shaking your phone. Built with Expo SDK 57 (React Native + TypeScript) and runs on iPhone with Expo Go.
 
 ## Run on iPhone
 
-1. Install **Expo Go** from the App Store and update it to the latest version (SDK 58).
+1. Install **Expo Go** from the App Store and use a version that supports SDK 57, or run it in the iOS Simulator.
 2. Connect your computer and iPhone to the **same Wi-Fi**.
 3. In the project folder, run:
    ```bash
